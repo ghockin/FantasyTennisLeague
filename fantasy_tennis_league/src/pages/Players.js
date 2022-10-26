@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-const Players = () => {
+function Players () {
   return (
-    <div>Players</div>
+    <div className='PageHeader'><h1>Players</h1></div>
   )
 }
 

@@ -27,20 +27,20 @@ function Navbar() {
                 </LeftContainer>
                 <RightContainer>
                     <NavbarLinkContainer>
-                        <NavbarLink to=""> Home</NavbarLink>
-                        <NavbarLink to="/fixtures"> Fixtures</NavbarLink>
-                        <NavbarLink to="/players"> Players</NavbarLink>
-                        <NavbarLink to="/results"> Results</NavbarLink>
+                        <NavbarLink to="/FantasyTennisLeague/"> Home</NavbarLink>
+                        <NavbarLink to="/FantasyTennisLeague/fixtures"> Fixtures</NavbarLink>
+                        <NavbarLink to="/FantasyTennisLeague/players"> Players</NavbarLink>
+                        <NavbarLink to="/FantasyTennisLeague/results"> Results</NavbarLink>
                         <OpenLinksButton onClick={() => { setExtendNavbar((curr) => !curr); }}>{extendNavbar ? <> &#10005; </> : <>&#8801;</>}</OpenLinksButton>
                     </NavbarLinkContainer>
                 </RightContainer>
             </NavbarInnerContainer>
             {extendNavbar && (
                 <NavbarExtendedContainer>
-                    <NavbarLinkExtended to=""> Home</NavbarLinkExtended>
-                    <NavbarLinkExtended to="/fixtures"> Fixtures</NavbarLinkExtended>
-                    <NavbarLinkExtended to="/players"> Players</NavbarLinkExtended>
-                    <NavbarLinkExtended to="/results"> Results</NavbarLinkExtended>
+                    <NavbarLinkExtended to="FantasyTennisLeague/"> Home</NavbarLinkExtended>
+                    <NavbarLinkExtended to="/FantasyTennisLeague/fixtures"> Fixtures</NavbarLinkExtended>
+                    <NavbarLinkExtended to="/FantasyTennisLeague/players"> Players</NavbarLinkExtended>
+                    <NavbarLinkExtended to="/FantasyTennisLeague/results"> Results</NavbarLinkExtended>
                 </NavbarExtendedContainer>
             )}
         </NavbarContainer>

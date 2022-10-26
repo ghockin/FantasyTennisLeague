@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-const Fixtures = () => {
+function Fixtures () {
   return (
-    <div>Fixtures</div>
+    <div className='PageHeader'><h1>Fixtures</h1></div>
   )
 }
 

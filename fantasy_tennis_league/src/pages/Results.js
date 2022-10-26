@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-const Results = () => {
+function Results () {
   return (
-    <div>Results</div>
+    <div className='PageHeader'><h1>Results</h1></div>
   )
 }
 
