@@ -1,13 +1,273 @@
-.App{
+.App {
   align-items: center;
 }
 
-body{
+body {
   margin: 0px;
   padding: 0px;
 }
 
-.PageHeader{
+.PageHeader {
   color: black;
   text-align: center;
+}
+
+
+.Banner {
+  position: absolute;
+  width: 1280px;
+  height: 210px;
+  left: 0px;
+  top: 206px;
+
+  background: linear-gradient(90deg, rgba(63, 169, 245, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%);
+}
+
+.BannerImg {
+  position: absolute;
+  width: 296px;
+  height: 237px;
+  left: 875px;
+  top: -12px;
+}
+
+.BannerText {
+  position: absolute;
+  width: 488px;
+  height: 193px;
+  left: 188px;
+  top: -50px;
+
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+
+  color: black;
+}
+
+.BannerLogIn {
+  position: absolute;
+  width: 1280px;
+  height: 128px;
+  left: 0px;
+  top: 416px;
+  background-color: white;
+}
+
+.BannerLogInText {
+  position: absolute;
+  width: 93px;
+  height: 39px;
+  left: 245px;
+  top: 25px;
+
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+
+
+  color: black;
+}
+
+.BannerLogInEmailText {
+
+  position: absolute;
+  width: 41px;
+  height: 19px;
+  left: 367px;
+  top: 12px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}
+
+.BannerLogInEmailBox {
+  position: absolute;
+  width: 256px;
+  height: 32px;
+  left: 368px;
+  top: 50px;
+
+  background: #D9D9D9;
+}
+
+.BannerLogInPasswordText {
+  position: absolute;
+  width: 74px;
+  height: 19px;
+  left: 640px;
+  top: 12px;
+  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: black;
+}
+
+.BannerLogInPasswordBox {
+  position: absolute;
+  width: 256px;
+  height: 32px;
+  left: 640px;
+  top: 50px;
+
+  background: #D9D9D9;
+}
+
+.BannerLogInSignInButton {
+  position: absolute;
+  width: 128px;
+  height: 32px;
+  left: 912px;
+  top: 50px;
+
+  background: linear-gradient(93.58deg, #00FF75 0%, #00E0FF 100%);
+  color: black;
+  text-align: center;
+}
+
+.BannerLogInSignInButtonText {
+  position: absolute;
+  top: 6px;
+  left: 30%;
+  color: black;
+  text-align: center;
+}
+
+.BannerLogInForgotPText {
+  position: absolute;
+  width: 135px;
+  height: 15px;
+  left: 1056px;
+  top: 50px;
+
+  font-style: italic;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: black;
+}
+
+.BannerRegister {
+  position: absolute;
+  width: 1027px;
+  height: 96px;
+  left: 188px;
+  top: 544px;
+
+  background: #3FA9F5;
+}
+
+.BannerRegisterLogo{
+
+}
+
+.BannerRegisterTitle{
+
+  position: absolute;
+  width: 179.22px;
+  height: 48px;
+  left: 308px;
+  top: 0px;
+  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  /* or 100% */
+  
+  
+  color: #FFFFFF;
+  
+}
+
+.BannerRegisterHeader{
+  position: absolute;
+  width: 466.18px;
+  height: 29px;
+  left: 549px;
+  top: 0px;
+  
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 29px;
+  
+  color: #FFFFFF;
+
+}
+
+.BannerRegisterBodyText{
+  position: absolute;
+  width: 466.18px;
+  height: 29px;
+  left: 549px;
+  top: 30px;
+  
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 15px;
+  
+  color: #FFFFFF;
+
+}
+
+.BannerRegisterSignUpButton{
+
+  position: absolute;
+  width: 128.88px;
+  height: 32px;
+  left: 1077px;
+  top: 30%;
+  
+  background: linear-gradient(93.58deg, #00FF75 0%, #00E0FF 100%);
+  
+}
+
+.BannerRegisterSignUpButtonText{
+  position: absolute;
+  top: 6px;
+  left: 15%;
+  color: black;
+  text-align: center;
+}
+
+.Footer {
+  position: absolute;
+  width: 100%;
+  height: 175px;
+  left: 0px;
+  top: 657px;
+  background: #3FA9F5;
+  color: white;
+}
+
+.FooterCl1 {
+  position: absolute;
+  width: 272px;
+  height: 39px;
+  left: 189px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: white;
+}
+
+
+.FooterCl2 {
+  position: absolute;
+  width: 86px;
+  height: 39px;
+  left: 637px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+
+  color: white;
 }

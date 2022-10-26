@@ -14,6 +14,24 @@ export const NavbarContainer = styled.nav`
     }
 `;
 
+export const NavbarDividerVR = styled.nav`
+  border-left: 6px solid white;
+  height: 50px;
+
+    @media (max-width: 700px) {
+        display:none;
+    }
+`;
+
+export const NavbarDividerHR = styled.nav`
+  border-left: 100px solid white;
+  height: 5px;
+
+    @media (min-width: 700px) {
+        display:none;
+    }
+`;
+
 export const LeftContainer = styled.div`
     flex: 70%;
     display: flex;

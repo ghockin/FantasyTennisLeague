@@ -6,6 +6,7 @@ import Fixtures from './pages/Fixtures.js';
 import Players from './pages/Players.js';
 import Results from './pages/Results.js';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Footer from './pages/partials/Footer';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Route path="/FantasyTennisLeague/players" element={<Players></Players>}></Route>
             <Route path="/FantasyTennisLeague/results" element={<Results></Results>}></Route>
           </Routes>
+          <Footer />
       </Router>
     </div>
   );
