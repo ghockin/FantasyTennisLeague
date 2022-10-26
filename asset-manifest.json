@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FantasyTennisLeague/static/css/main.cb00d82e.css",
+    "main.js": "/FantasyTennisLeague/static/js/main.00833ea4.js",
+    "index.html": "/FantasyTennisLeague/index.html",
+    "main.cb00d82e.css.map": "/FantasyTennisLeague/static/css/main.cb00d82e.css.map",
+    "main.00833ea4.js.map": "/FantasyTennisLeague/static/js/main.00833ea4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb00d82e.css",
+    "static/js/main.00833ea4.js"
+  ]
+}
