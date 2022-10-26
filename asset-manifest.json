@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/FantasyTennisLeague/static/css/main.2d044cab.css",
-    "main.js": "/FantasyTennisLeague/static/js/main.4cf9ed94.js",
+    "main.css": "/FantasyTennisLeague/static/css/main.218892ad.css",
+    "main.js": "/FantasyTennisLeague/static/js/main.6452807b.js",
+    "static/media/tennis-players-silhouette.png": "/FantasyTennisLeague/static/media/tennis-players-silhouette.854ee8c090fdfd32be18.png",
     "index.html": "/FantasyTennisLeague/index.html",
-    "main.2d044cab.css.map": "/FantasyTennisLeague/static/css/main.2d044cab.css.map",
-    "main.4cf9ed94.js.map": "/FantasyTennisLeague/static/js/main.4cf9ed94.js.map"
+    "main.218892ad.css.map": "/FantasyTennisLeague/static/css/main.218892ad.css.map",
+    "main.6452807b.js.map": "/FantasyTennisLeague/static/js/main.6452807b.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d044cab.css",
-    "static/js/main.4cf9ed94.js"
+    "static/css/main.218892ad.css",
+    "static/js/main.6452807b.js"
   ]
 }

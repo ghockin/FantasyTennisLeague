@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.2d044cab.css","mappings":"AAAA,KACE,kBACF,CAEA,KACE,QAAW,CACX,SACF,CAEA,YACE,UAAY,CACZ,iBACF","sources":["App.css"],"sourcesContent":[".App{\n  align-items: center;\n}\n\nbody{\n  margin: 0px;\n  padding: 0px;\n}\n\n.PageHeader{\n  color: black;\n  text-align: center;\n}"],"names":[],"sourceRoot":""}
